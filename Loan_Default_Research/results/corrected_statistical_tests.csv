@@ -1,0 +1,271 @@
+Comparison_Type,Dataset,Dataset_A,Dataset_B,Model,Metric,Strategy_A,Strategy_B,Mean_Difference,T_Statistic,P_Value,Holm_P_Value,Significant
+Strategy Comparison,Original,Original,Original,Logistic Regression,F1,Baseline,SMOTENC,-0.027168731027924168,-3.889029175154671,0.0006971346401535389,0.0027885385606141555,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,F1,Baseline,Random_Over_Sampling,-0.02872843962543704,-4.125466566841615,0.00038356475549426147,0.002301388532965569,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,F1,Baseline,Random_Under_Sampling,-0.027227573087787227,-4.0329624959472765,0.00048478236056006635,0.002423911802800332,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,F1,SMOTENC,Random_Over_Sampling,-0.0015597085975128698,-0.972350962625529,0.34057471842005743,0.9631687208156069,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,F1,SMOTENC,Random_Under_Sampling,-5.884205986305791e-05,-0.03507736147253322,0.9723081721735696,0.9723081721735696,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,F1,Random_Over_Sampling,Random_Under_Sampling,0.001500866537649812,1.0132314200723538,0.32105624027186896,0.9631687208156069,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,Recall,Baseline,SMOTENC,-0.30738844991414743,-46.30847623259613,5.47297848831526e-25,2.189191395326104e-24,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,Recall,Baseline,Random_Over_Sampling,-0.31077391635394574,-55.285121899492815,8.091948420702119e-27,4.8551690524212714e-26,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,Recall,Baseline,Random_Under_Sampling,-0.31042124482359434,-53.71114600913131,1.609845994357544e-26,8.049229971787721e-26,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,Recall,SMOTENC,Random_Over_Sampling,-0.0033854664397983125,-1.674423235591981,0.10703157535111994,0.3210947260533598,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,Recall,SMOTENC,Random_Under_Sampling,-0.003032794909446892,-1.1189408366951086,0.27423991366112155,0.5484798273222431,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,Recall,Random_Over_Sampling,Random_Under_Sampling,0.00035267153035142053,0.18566177496793557,0.85427022729954,0.85427022729954,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,PR_AUC,Baseline,SMOTENC,0.008924518958299434,8.561954639435418,9.29596372493959e-09,4.6479818624697954e-08,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,PR_AUC,Baseline,Random_Over_Sampling,0.007400380712165422,9.804032747439006,7.224740312832805e-10,4.334844187699683e-09,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,PR_AUC,Baseline,Random_Under_Sampling,0.006819924965820738,8.061507825593226,2.755145387559627e-08,1.1020581550238508e-07,True
+Strategy Comparison,Original,Original,Original,Logistic Regression,PR_AUC,SMOTENC,Random_Over_Sampling,-0.0015241382461340124,-1.5223162017672824,0.1409980825967337,0.2819961651934674,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,PR_AUC,SMOTENC,Random_Under_Sampling,-0.002104593992478696,-2.478864612738217,0.020599327826505767,0.0617979834795173,False
+Strategy Comparison,Original,Original,Original,Logistic Regression,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,-0.0005804557463446835,-0.7190534106081455,0.47905135143359334,0.47905135143359334,False
+Strategy Comparison,Original,Original,Original,Random Forest,F1,Baseline,SMOTENC,-0.012291089555061894,-2.989337222076002,0.00636487470254527,0.017469732132638124,True
+Strategy Comparison,Original,Original,Original,Random Forest,F1,Baseline,Random_Over_Sampling,-0.016429899400802986,-3.7190350731346706,0.0010682228670495938,0.004272891468198375,True
+Strategy Comparison,Original,Original,Original,Random Forest,F1,Baseline,Random_Under_Sampling,0.018512730836223828,3.02673842082649,0.005823244044212708,0.017469732132638124,True
+Strategy Comparison,Original,Original,Original,Random Forest,F1,SMOTENC,Random_Over_Sampling,-0.004138809845741092,-1.1791997349517973,0.24987686473623177,0.24987686473623177,False
+Strategy Comparison,Original,Original,Original,Random Forest,F1,SMOTENC,Random_Under_Sampling,0.03080382039128572,6.57490909327794,8.436579374895874e-07,5.061947624937525e-06,True
+Strategy Comparison,Original,Original,Original,Random Forest,F1,Random_Over_Sampling,Random_Under_Sampling,0.03494263023702681,6.339508414082026,1.4875427848337442e-06,7.437713924168721e-06,True
+Strategy Comparison,Original,Original,Original,Random Forest,Recall,Baseline,SMOTENC,-0.10089911350410617,-20.57814180681004,9.371863413899517e-17,3.748745365559807e-16,True
+Strategy Comparison,Original,Original,Original,Random Forest,Recall,Baseline,Random_Over_Sampling,-0.11514669525829585,-24.652176399910676,1.4832809298101265e-18,7.416404649050632e-18,True
+Strategy Comparison,Original,Original,Original,Random Forest,Recall,Baseline,Random_Under_Sampling,-0.19266354334195746,-31.49326222880618,4.929531735800134e-21,2.9577190414800803e-20,True
+Strategy Comparison,Original,Original,Original,Random Forest,Recall,SMOTENC,Random_Over_Sampling,-0.014247581754189694,-4.521055473118201,0.00014038317644283696,0.00014038317644283696,True
+Strategy Comparison,Original,Original,Original,Random Forest,Recall,SMOTENC,Random_Under_Sampling,-0.09176442983785126,-19.343055090929642,3.81655484542253e-16,1.144966453626759e-15,True
+Strategy Comparison,Original,Original,Original,Random Forest,Recall,Random_Over_Sampling,Random_Under_Sampling,-0.07751684808366159,-13.602700814530543,8.945347232421878e-13,1.7890694464843756e-12,True
+Strategy Comparison,Original,Original,Original,Random Forest,PR_AUC,Baseline,SMOTENC,0.009910906338195349,9.119351088488717,2.8819310947858895e-09,1.729158656871534e-08,True
+Strategy Comparison,Original,Original,Original,Random Forest,PR_AUC,Baseline,Random_Over_Sampling,0.004476249228657387,4.685321124077671,9.243199311539127e-05,0.0003697279724615651,True
+Strategy Comparison,Original,Original,Original,Random Forest,PR_AUC,Baseline,Random_Under_Sampling,0.010692626350684692,7.91871784056492,3.779470996268782e-08,1.8897354981343908e-07,True
+Strategy Comparison,Original,Original,Original,Random Forest,PR_AUC,SMOTENC,Random_Over_Sampling,-0.005434657109537961,-3.9951198602019367,0.0005334452778547597,0.0016003358335642793,True
+Strategy Comparison,Original,Original,Original,Random Forest,PR_AUC,SMOTENC,Random_Under_Sampling,0.000781720012489342,0.5649182059224146,0.5773722420132344,0.5773722420132344,False
+Strategy Comparison,Original,Original,Original,Random Forest,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,0.0062163771220273036,3.7686924611947985,0.0009432974883303845,0.001886594976660769,True
+Strategy Comparison,Original,Original,Original,XGBoost,F1,Baseline,SMOTENC,0.005075271618803363,2.282228975783804,0.03163361698135427,0.09490085094406281,False
+Strategy Comparison,Original,Original,Original,XGBoost,F1,Baseline,Random_Over_Sampling,-0.0018992501551578877,-0.5040500745262115,0.6188221918152477,0.6188221918152477,False
+Strategy Comparison,Original,Original,Original,XGBoost,F1,Baseline,Random_Under_Sampling,0.03075792001716842,6.598963983880979,7.964446285192678e-07,3.982223142596339e-06,True
+Strategy Comparison,Original,Original,Original,XGBoost,F1,SMOTENC,Random_Over_Sampling,-0.006974521773961251,-1.8847427760148734,0.07163099929381497,0.14326199858762995,False
+Strategy Comparison,Original,Original,Original,XGBoost,F1,SMOTENC,Random_Under_Sampling,0.02568264839836506,5.768014973073157,6.043595762017244e-06,2.4174383048068974e-05,True
+Strategy Comparison,Original,Original,Original,XGBoost,F1,Random_Over_Sampling,Random_Under_Sampling,0.032657170172326305,7.829285379066379,4.613354544796697e-08,2.768012726878018e-07,True
+Strategy Comparison,Original,Original,Original,XGBoost,Recall,Baseline,SMOTENC,0.0004584916361715141,0.17091292593643428,0.8657250002200857,0.8657250002200857,False
+Strategy Comparison,Original,Original,Original,XGBoost,Recall,Baseline,Random_Over_Sampling,-0.12897180461350796,-28.222658955099888,6.408120015056884e-20,2.5632480060227537e-19,True
+Strategy Comparison,Original,Original,Original,XGBoost,Recall,Baseline,Random_Under_Sampling,-0.195167206644446,-39.50243886041064,2.3680243682716702e-23,1.184012184135835e-22,True
+Strategy Comparison,Original,Original,Original,XGBoost,Recall,SMOTENC,Random_Over_Sampling,-0.1294302962496795,-27.092447255368466,1.6605556656570384e-19,4.981666996971115e-19,True
+Strategy Comparison,Original,Original,Original,XGBoost,Recall,SMOTENC,Random_Under_Sampling,-0.19562569828061752,-40.05382334320367,1.7060056662163333e-23,1.0236033997298e-22,True
+Strategy Comparison,Original,Original,Original,XGBoost,Recall,Random_Over_Sampling,Random_Under_Sampling,-0.06619540203093802,-11.653987214866735,2.284811268790951e-11,4.569622537581902e-11,True
+Strategy Comparison,Original,Original,Original,XGBoost,PR_AUC,Baseline,SMOTENC,0.010239445664631064,6.1372898872894055,2.433414771074876e-06,1.4600488626449258e-05,True
+Strategy Comparison,Original,Original,Original,XGBoost,PR_AUC,Baseline,Random_Over_Sampling,0.005136216081644913,3.8416980466349395,0.0007853115048171519,0.0031412460192686074,True
+Strategy Comparison,Original,Original,Original,XGBoost,PR_AUC,Baseline,Random_Under_Sampling,0.011322214296154338,6.064181796083409,2.9104563027177334e-06,1.4600488626449258e-05,True
+Strategy Comparison,Original,Original,Original,XGBoost,PR_AUC,SMOTENC,Random_Over_Sampling,-0.005103229582986151,-3.6288106937631013,0.0013381077218984566,0.00401432316569537,True
+Strategy Comparison,Original,Original,Original,XGBoost,PR_AUC,SMOTENC,Random_Under_Sampling,0.0010827686315232742,0.5424085535185202,0.5925385747942863,0.5925385747942863,False
+Strategy Comparison,Original,Original,Original,XGBoost,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,0.006185998214509425,3.1756536367598422,0.0040736123669557825,0.008147224733911565,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,F1,Baseline,SMOTENC,-0.013988042663609484,-1.7154733441265004,0.09914289668821077,0.19828579337642155,False
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,F1,Baseline,Random_Over_Sampling,-0.026410340837044455,-3.1348714828489777,0.004494606160895412,0.01797842464358165,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,F1,Baseline,Random_Under_Sampling,-0.025134126079711206,-2.937020948534966,0.007203845846218759,0.021611537538656276,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,F1,SMOTENC,Random_Over_Sampling,-0.01242229817343497,-5.247062868701884,2.2258672911437254e-05,0.00013355203746862353,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,F1,SMOTENC,Random_Under_Sampling,-0.011146083416101722,-3.939651269033307,0.0006136271260437022,0.003068135630218511,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,F1,Random_Over_Sampling,Random_Under_Sampling,0.0012762147573332472,0.8937616950007365,0.38032480222194737,0.38032480222194737,False
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,Recall,Baseline,SMOTENC,-0.29377510508200666,-36.5059173768699,1.5264599196258428e-22,6.105839678503371e-22,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,Recall,Baseline,Random_Over_Sampling,-0.3081637181549076,-45.29758566215908,9.24212233335893e-25,5.545273400015358e-24,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,Recall,Baseline,Random_Under_Sampling,-0.3081280096962916,-40.843336271516925,1.0748693178657512e-23,5.374346589328756e-23,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,Recall,SMOTENC,Random_Over_Sampling,-0.0143886130729009,-3.6120193785405337,0.0013952443673937106,0.004185733102181132,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,Recall,SMOTENC,Random_Under_Sampling,-0.014352904614284933,-2.907291114633198,0.0077265710149602065,0.015453142029920413,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,Recall,Random_Over_Sampling,Random_Under_Sampling,3.5708458615966165e-05,0.013588212745100546,0.9892708360071215,0.9892708360071215,False
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,PR_AUC,Baseline,SMOTENC,0.008740629035546408,4.052585355266211,0.00046130639730161866,0.0018452255892064747,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,PR_AUC,Baseline,Random_Over_Sampling,0.007886362502351512,9.633148599145823,1.0147633805659873e-09,6.0885802833959235e-09,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,PR_AUC,Baseline,Random_Under_Sampling,0.007208638747497762,7.440044604149318,1.1123187810699861e-07,5.56159390534993e-07,True
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,PR_AUC,SMOTENC,Random_Over_Sampling,-0.0008542665331948962,-0.3656049119395743,0.717862567355488,1.0,False
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,PR_AUC,SMOTENC,Random_Under_Sampling,-0.0015319902880486457,-0.7061040207057627,0.4869219693837479,1.0,False
+Strategy Comparison,Fused,Fused,Fused,Logistic Regression,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,-0.0006777237548537496,-0.7607494201460986,0.4542166453205777,1.0,False
+Strategy Comparison,Fused,Fused,Fused,Random Forest,F1,Baseline,SMOTENC,-0.015779745432791748,-3.6793529992492986,0.0011796141147031476,0.0035388423441094427,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,F1,Baseline,Random_Over_Sampling,-0.02629399023036251,-6.844160632959101,4.445729190229546e-07,2.222864595114773e-06,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,F1,Baseline,Random_Under_Sampling,0.014107455716510167,2.411649584061239,0.02389207092244829,0.02389207092244829,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,F1,SMOTENC,Random_Over_Sampling,-0.010514244797570762,-2.8140970763832134,0.009609066582421544,0.01921813316484309,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,F1,SMOTENC,Random_Under_Sampling,0.029887201149301913,5.928031816070424,4.0679939907431124e-06,1.627197596297245e-05,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,F1,Random_Over_Sampling,Random_Under_Sampling,0.04040144594687268,7.316262013345833,1.477713141750584e-07,8.866278850503503e-07,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,Recall,Baseline,SMOTENC,-0.09419847873886056,-22.151384836339425,1.7414705331183554e-17,6.087134019184712e-17,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,Recall,Baseline,Random_Over_Sampling,-0.0941277766123581,-23.87384555485561,3.1117993940034512e-18,1.5558996970017257e-17,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,Recall,Baseline,Random_Under_Sampling,-0.21946617563651333,-32.767544468009376,1.9427352146591735e-21,1.165641128795504e-20,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,Recall,SMOTENC,Random_Over_Sampling,7.070212650243323e-05,0.018575054127931118,0.9853336670242454,0.9853336670242454,False
+Strategy Comparison,Fused,Fused,Fused,Random Forest,Recall,SMOTENC,Random_Under_Sampling,-0.12526769689765282,-22.28203788602469,1.521783504796178e-17,6.087134019184712e-17,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,Recall,Random_Over_Sampling,Random_Under_Sampling,-0.12533839902415525,-21.012778968092462,5.820865518574327e-17,1.1641731037148655e-16,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,PR_AUC,Baseline,SMOTENC,0.01078224429637435,4.062042330273587,0.0004503981289509759,0.0018015925158039036,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,PR_AUC,Baseline,Random_Over_Sampling,0.002841709262518104,3.107426882432912,0.004801167285468147,0.01440350185640444,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,PR_AUC,Baseline,Random_Under_Sampling,0.01338010440156217,7.688531238533019,6.327400403488291e-08,3.7964402420929746e-07,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,PR_AUC,SMOTENC,Random_Over_Sampling,-0.007940535033856246,-2.873713122380842,0.008360351530971671,0.016720703061943343,True
+Strategy Comparison,Fused,Fused,Fused,Random Forest,PR_AUC,SMOTENC,Random_Under_Sampling,0.002597860105187819,1.0696395566109318,0.2954218960129632,0.2954218960129632,False
+Strategy Comparison,Fused,Fused,Fused,Random Forest,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,0.010538395139044065,5.7217238071316325,6.7798597848181e-06,3.38992989240905e-05,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,F1,Baseline,SMOTENC,0.0033335448597591544,0.8039232060058263,0.42933268608725084,0.7525067623440689,False
+Strategy Comparison,Fused,Fused,Fused,XGBoost,F1,Baseline,Random_Over_Sampling,-0.004306228223321766,-0.9015528372960588,0.37625338117203444,0.7525067623440689,False
+Strategy Comparison,Fused,Fused,Fused,XGBoost,F1,Baseline,Random_Under_Sampling,0.03687074237569991,8.00854559985141,3.096904721212899e-08,1.5484523606064493e-07,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,F1,SMOTENC,Random_Over_Sampling,-0.0076397730830809205,-1.4162026688103584,0.16956483765238844,0.5086945129571654,False
+Strategy Comparison,Fused,Fused,Fused,XGBoost,F1,SMOTENC,Random_Under_Sampling,0.03353719751594075,6.5614942741807125,8.712188100335696e-07,3.4848752401342783e-06,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,F1,Random_Over_Sampling,Random_Under_Sampling,0.04117697059902167,12.626371347076455,4.328188193069293e-12,2.596912915841576e-11,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,Recall,Baseline,SMOTENC,-0.0016579104802305932,-0.3833363011496203,0.7048450359145254,0.7048450359145254,False
+Strategy Comparison,Fused,Fused,Fused,XGBoost,Recall,Baseline,Random_Over_Sampling,-0.10633015562237295,-21.13402964177817,5.1047324369547375e-17,2.041892974781895e-16,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,Recall,Baseline,Random_Under_Sampling,-0.19153541710369903,-32.93026512729828,1.7292666431815722e-21,1.012670080200531e-20,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,Recall,SMOTENC,Random_Over_Sampling,-0.10467224514214235,-19.361058633612085,3.7371143059590755e-16,1.1211342917877227e-15,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,Recall,SMOTENC,Random_Under_Sampling,-0.18987750662346842,-32.96430665486346,1.687783467000885e-21,1.012670080200531e-20,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,Recall,Random_Over_Sampling,Random_Under_Sampling,-0.08520526148132607,-18.024561431188197,1.8703042051600623e-15,3.740608410320125e-15,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,PR_AUC,Baseline,SMOTENC,0.010400601992838574,5.111225490705868,3.136703949154246e-05,0.00015683519745771232,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,PR_AUC,Baseline,Random_Over_Sampling,0.006434666988325528,3.183872452901825,0.003993498091322097,0.011980494273966292,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,PR_AUC,Baseline,Random_Under_Sampling,0.016153346874147177,6.85690937696546,4.313848444356993e-07,2.5883090666141958e-06,True
+Strategy Comparison,Fused,Fused,Fused,XGBoost,PR_AUC,SMOTENC,Random_Over_Sampling,-0.003965935004513046,-1.9608381204914749,0.061602660424423764,0.06355717858620151,False
+Strategy Comparison,Fused,Fused,Fused,XGBoost,PR_AUC,SMOTENC,Random_Under_Sampling,0.005752744881308605,2.2800949470251632,0.031778589293100755,0.06355717858620151,False
+Strategy Comparison,Fused,Fused,Fused,XGBoost,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,0.009718679885821651,4.024235283727848,0.0004955996724295667,0.0019823986897182667,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,F1,Baseline,SMOTENC,-0.01611888992228106,-2.2751055210031597,0.03211990457374371,0.06423980914748742,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,F1,Baseline,Random_Over_Sampling,-0.0293675816671051,-3.9273417678033278,0.0006329755960787943,0.0025319023843151773,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,F1,Baseline,Random_Under_Sampling,-0.027590826585565446,-3.782893838360299,0.0009102925853262647,0.002730877755978794,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,F1,SMOTENC,Random_Over_Sampling,-0.013248691744824037,-4.46422263882805,0.00016222269481421482,0.000973336168885289,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,F1,SMOTENC,Random_Under_Sampling,-0.011471936663284388,-4.299215057558311,0.0002467922851857274,0.001233961425928637,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,F1,Random_Over_Sampling,Random_Under_Sampling,0.0017767550815396493,1.059187346387399,0.300058687812762,0.300058687812762,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,Recall,Baseline,SMOTENC,-0.2973019757748099,-41.61828331902283,6.887596876207685e-24,2.755038750483074e-23,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,Recall,Baseline,Random_Over_Sampling,-0.3120079870094555,-51.630823331530564,4.1220703639318e-26,2.0610351819659e-25,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,Recall,Baseline,Random_Under_Sampling,-0.3118667692235974,-52.87041047400106,2.3436934076775262e-26,1.4062160446065157e-25,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,Recall,SMOTENC,Random_Over_Sampling,-0.01470601123464559,-3.265423842336199,0.003276703906835628,0.009830111720506884,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,Recall,SMOTENC,Random_Under_Sampling,-0.014564793448787552,-3.006542603143841,0.0061099822968791176,0.012219964593758235,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,Recall,Random_Over_Sampling,Random_Under_Sampling,0.00014121778585803656,0.05239041195546656,0.9586512507839363,0.9586512507839363,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,PR_AUC,Baseline,SMOTENC,0.00678132187868203,2.9717927545570775,0.0066352426454831664,0.026540970581932666,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,PR_AUC,Baseline,Random_Over_Sampling,0.007516797191417051,10.47261326880974,1.9797197118100025e-10,1.1878318270860014e-09,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,PR_AUC,Baseline,Random_Under_Sampling,0.007019555228235524,7.170426466999654,2.0703209932687818e-07,1.035160496634391e-06,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,PR_AUC,SMOTENC,Random_Over_Sampling,0.0007354753127350211,0.29453513319941077,0.7708816113985351,1.0,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,PR_AUC,SMOTENC,Random_Under_Sampling,0.00023823334955349384,0.10644027339483905,0.9161177612679907,1.0,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Logistic Regression,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,-0.0004972419631815272,-0.5444578161768868,0.5911498287012548,1.0,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,F1,Baseline,SMOTENC,-0.015020979414052204,-3.745941873135456,0.000998640199323364,0.0029959205979700923,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,F1,Baseline,Random_Over_Sampling,-0.02620024789611238,-7.110227771727806,2.3814190653499712e-07,1.1907095326749857e-06,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,F1,Baseline,Random_Under_Sampling,0.013886050991519098,2.5116526315336523,0.019150451217791097,0.019150451217791097,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,F1,SMOTENC,Random_Over_Sampling,-0.011179268482060176,-3.734021451124963,0.0010288996575524144,0.0029959205979700923,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,F1,SMOTENC,Random_Under_Sampling,0.028907030405571302,5.420202061920951,1.4399045832463786e-05,5.7596183329855144e-05,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,F1,Random_Over_Sampling,Random_Under_Sampling,0.040086298887631475,8.33951310516958,1.5005090104573536e-08,9.003054062744121e-08,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,Recall,Baseline,SMOTENC,-0.0886267782361762,-22.035294600925443,1.964338379775228e-17,5.610638396831797e-17,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,Recall,Baseline,Random_Over_Sampling,-0.09105911785500626,-23.195466101753038,6.046030670645179e-18,2.4184122682580716e-17,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,Recall,Baseline,Random_Under_Sampling,-0.21840828535689039,-35.11553672627575,3.8129949357513727e-22,2.287796961450824e-21,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,Recall,SMOTENC,Random_Over_Sampling,-0.002432339618830066,-0.8617441609228502,0.3973569383531346,0.3973569383531346,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,Recall,SMOTENC,Random_Under_Sampling,-0.12978150712071418,-22.082563116890583,1.8702127989439322e-17,5.610638396831797e-17,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,Recall,Random_Over_Sampling,Random_Under_Sampling,-0.1273491675018841,-23.985713613374095,2.7936381323802883e-18,1.396819066190144e-17,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,PR_AUC,Baseline,SMOTENC,0.010753102538608412,4.015166533961307,0.0005070934880321635,0.002028373952128654,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,PR_AUC,Baseline,Random_Over_Sampling,0.0032824959102722585,3.018276538588566,0.005941780989062545,0.017825342967187637,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,PR_AUC,Baseline,Random_Under_Sampling,0.014189464264318165,7.825145889741734,4.6562441531622576e-08,2.7937464918973546e-07,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,PR_AUC,SMOTENC,Random_Over_Sampling,-0.007470606628336154,-2.8531283206335463,0.008772999587180938,0.017825342967187637,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,PR_AUC,SMOTENC,Random_Under_Sampling,0.0034363617257097533,1.4455616877583468,0.1612326964095298,0.1612326964095298,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,Random Forest,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,0.010906968354045907,7.364332761230788,1.3230615981489748e-07,6.615307990744874e-07,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,F1,Baseline,SMOTENC,0.004608085024402336,1.2839191001233237,0.21142761196019094,0.4228552239203819,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,F1,Baseline,Random_Over_Sampling,-0.004515098645234801,-0.9889573373318219,0.3325503691641587,0.4228552239203819,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,F1,Baseline,Random_Under_Sampling,0.03836442977669455,7.922651896933763,3.746560871500461e-08,1.8732804357502305e-07,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,F1,SMOTENC,Random_Over_Sampling,-0.009123183669637136,-1.8646092449002483,0.07451165711205299,0.22353497133615896,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,F1,SMOTENC,Random_Under_Sampling,0.033756344752292215,6.294011986264162,1.6610761368617712e-06,6.644304547447085e-06,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,F1,Random_Over_Sampling,Random_Under_Sampling,0.04287952842192935,11.116786027082338,5.980834868559225e-11,3.5885009211355353e-10,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,Recall,Baseline,SMOTENC,-6.837128716608021e-07,-0.00016662856184277596,0.9998684269595142,0.9998684269595142,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,Recall,Baseline,Random_Over_Sampling,-0.10354442968246197,-22.20535678844089,1.64697108043712e-17,6.58788432174848e-17,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,Recall,Baseline,Random_Under_Sampling,-0.19075930976077815,-35.04958115429407,3.985669707932588e-22,2.391401824759553e-21,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,Recall,SMOTENC,Random_Over_Sampling,-0.10354374596959032,-19.740784464301047,2.4076474938124184e-16,7.222942481437255e-16,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,Recall,SMOTENC,Random_Under_Sampling,-0.1907586260479065,-34.157492605254845,7.313863400318611e-22,3.656931700159306e-21,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,Recall,Random_Over_Sampling,Random_Under_Sampling,-0.08721488007831621,-18.957289896293087,6.015031041859159e-16,1.2030062083718318e-15,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,PR_AUC,Baseline,SMOTENC,0.01124663675364832,4.829272874402138,6.410702822691689e-05,0.0003205351411345844,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,PR_AUC,Baseline,Random_Over_Sampling,0.006933867638256839,3.7055677660844766,0.0011048171911381577,0.0033144515734144734,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,PR_AUC,Baseline,Random_Under_Sampling,0.016334021161082176,6.966803486112313,3.3303981578095304e-07,1.998238894685718e-06,True
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,PR_AUC,SMOTENC,Random_Over_Sampling,-0.004312769115391481,-2.163178583716647,0.04070719934024017,0.0587723584672919,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,PR_AUC,SMOTENC,Random_Under_Sampling,0.005087384407433854,2.3165067506957855,0.02938617923364595,0.0587723584672919,False
+Strategy Comparison,Fused_No_Eligibility,Fused_No_Eligibility,Fused_No_Eligibility,XGBoost,PR_AUC,Random_Over_Sampling,Random_Under_Sampling,0.009400153522825336,4.655059018866163,9.982771647163841e-05,0.00039931086588655364,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,F1,Baseline,Baseline,-0.00827604176157965,-2.248743338506888,0.033979322722822926,0.06795864544564585,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,F1,Baseline,Baseline,-0.00026437455381622454,-0.09077026986846366,0.9284284722685695,0.9284284722685695,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,F1,Baseline,Baseline,0.008011667207763425,3.0035830641964316,0.006153120243368995,0.018459360730106983,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,Recall,Baseline,Baseline,-0.008464365351296334,-2.4658131126744167,0.021203835797655526,0.04240767159531105,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,Recall,Baseline,Baseline,-0.000811629334389985,-0.31121332469525687,0.7583255975506865,0.7583255975506865,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,Recall,Baseline,Baseline,0.00765273601690635,2.9854942514168967,0.006423180440048327,0.01926954132014498,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,PR_AUC,Baseline,Baseline,-0.00984013634914818,-8.126031436182265,2.390533311032043e-08,7.171599933096129e-08,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,PR_AUC,Baseline,Baseline,-0.0007474098001184882,-1.0024005511421001,0.3261503083961615,0.3261503083961615,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,PR_AUC,Baseline,Baseline,0.009092726549029692,7.651438660924015,6.87976145049733e-08,1.375952290099466e-07,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,F1,Baseline,Baseline,0.008200012761088806,2.4818740713517653,0.020462222717751003,0.05202597283287874,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,F1,Baseline,Baseline,0.007477871108447576,2.555977012069297,0.017341990944292913,0.05202597283287874,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,F1,Baseline,Baseline,-0.0007221416526412305,-0.3691986555011356,0.7152170101287888,0.7152170101287888,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,Recall,Baseline,Baseline,0.010896922515131038,3.19856473127304,0.0038540537367307047,0.011562161210192115,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,Recall,Baseline,Baseline,0.007934612187181937,2.750550911582375,0.011133664150283924,0.022267328300567848,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,Recall,Baseline,Baseline,-0.0029623103279491003,-1.303415262691919,0.20479884245214608,0.20479884245214608,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,PR_AUC,Baseline,Baseline,5.845147488696689e-06,0.0036544694563474703,0.997114368990019,1.0,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,PR_AUC,Baseline,Baseline,-0.0008182236800075327,-0.493754187838008,0.6259682909121362,1.0,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,PR_AUC,Baseline,Baseline,-0.0008240688274962294,-1.2257003138394769,0.23220358502279573,0.6966107550683872,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,F1,Baseline,Baseline,0.010158775484504634,3.0519841095586884,0.005482904960762538,0.016448714882287614,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,F1,Baseline,Baseline,0.009504005391396246,2.982837150817485,0.006463792264467501,0.016448714882287614,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,F1,Baseline,Baseline,-0.0006547700931083877,-0.2551361009766403,0.8007916930744182,0.8007916930744182,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,Recall,Baseline,Baseline,0.013789649519458628,3.1844337427562,0.003988082608949515,0.011767462927597897,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,Recall,Baseline,Baseline,0.012273236525806266,3.1912913651387647,0.003922487642532633,0.011767462927597897,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,Recall,Baseline,Baseline,-0.0015164129936523628,-0.5247066975766949,0.6046005144243239,0.6046005144243239,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,PR_AUC,Baseline,Baseline,0.00982417441843475,6.188131780539813,2.1492858293519207e-06,6.4478574880557615e-06,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,PR_AUC,Baseline,Baseline,0.009657046357057174,5.258520071737807,2.1624961329094144e-05,4.324992265818829e-05,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,PR_AUC,Baseline,Baseline,-0.00016712806137757495,-0.15236566326229128,0.88017222267666,0.88017222267666,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,F1,SMOTENC,SMOTENC,0.004904646602735037,2.5349445991160033,0.01817933367676711,0.01817933367676711,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,F1,SMOTENC,SMOTENC,0.010785466551826883,4.8255587406660885,6.471474373864167e-05,0.000194144231215925,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,F1,SMOTENC,SMOTENC,0.005880819949091847,3.4147292191696046,0.0022737270851697668,0.0045474541703395335,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,Recall,SMOTENC,SMOTENC,0.005148979480844389,1.511386164994637,0.1437463733879852,0.2865512604125119,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,Recall,SMOTENC,SMOTENC,0.009274844804947575,2.548419234874836,0.017638656749487027,0.05291597024846108,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,Recall,SMOTENC,SMOTENC,0.004125865324103186,1.5132461501096137,0.14327563020625594,0.2865512604125119,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,PR_AUC,SMOTENC,SMOTENC,-0.010024026271901208,-4.8604518862620125,5.922627834725755e-05,0.00017767883504177264,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,PR_AUC,SMOTENC,SMOTENC,-0.002890606879735893,-1.290485065423977,0.20917696615731465,0.20917696615731465,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,PR_AUC,SMOTENC,SMOTENC,0.007133419392165314,4.75813638785807,7.680920483868645e-05,0.00017767883504177264,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,F1,SMOTENC,SMOTENC,0.004711356883358953,1.3468161244197736,0.1906207317250307,0.5718621951750921,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,F1,SMOTENC,SMOTENC,0.004747981249457265,1.197019239056329,0.242989463114118,0.5718621951750921,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,F1,SMOTENC,SMOTENC,3.6624366098312324e-05,0.01356665476367284,0.9892878569597181,0.9892878569597181,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,Recall,SMOTENC,SMOTENC,0.017597557280376656,3.629768053658744,0.0013349200619823332,0.0026698401239646664,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,Recall,SMOTENC,SMOTENC,0.020206947455111916,4.1462864443074,0.00036384783127632484,0.0010915434938289746,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,Recall,SMOTENC,SMOTENC,0.0026093901747352623,0.9959707784088698,0.32920071048688826,0.32920071048688826,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,PR_AUC,SMOTENC,SMOTENC,0.0008771831056676982,0.33284330674446067,0.7421425814703279,1.0,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,PR_AUC,SMOTENC,SMOTENC,2.3972520405530772e-05,0.008383255009771502,0.9933805052025768,1.0,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,PR_AUC,SMOTENC,SMOTENC,-0.0008532105852621674,-0.7558626598429193,0.4570867886562765,1.0,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,F1,SMOTENC,SMOTENC,0.008417048725460426,2.3426378442812976,0.027772007941665903,0.055544015883331806,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,F1,SMOTENC,SMOTENC,0.009036818796995218,2.8744717929712205,0.008345501129960072,0.025036503389880217,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,F1,SMOTENC,SMOTENC,0.0006197700715347931,0.1973711654970697,0.8451991449707167,0.8451991449707167,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,Recall,SMOTENC,SMOTENC,0.011673247403056522,2.5710696078404465,0.01676342639157741,0.03784151725136427,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,Recall,SMOTENC,SMOTENC,0.011814061176763091,2.696277933066408,0.01261383908378809,0.03784151725136427,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,Recall,SMOTENC,SMOTENC,0.00014081377370656956,0.0368117825472228,0.9709395621596676,0.9709395621596676,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,PR_AUC,SMOTENC,SMOTENC,0.00998533074664226,4.882343293081419,5.602416541078746e-05,0.0001680724962323624,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,PR_AUC,SMOTENC,SMOTENC,0.010664237446074431,4.788452655498981,7.111300418137842e-05,0.0001680724962323624,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,PR_AUC,SMOTENC,SMOTENC,0.0006789066994321713,0.3692505307295195,0.7151788483779331,0.7151788483779331,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,F1,Random_Over_Sampling,Random_Over_Sampling,-0.005957942973187063,-3.553116980864262,0.0016151928519339569,0.00484557855580187,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,F1,Random_Over_Sampling,Random_Over_Sampling,-0.0009035165954842839,-0.48790654532176514,0.6300437435536318,0.6300437435536318,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,F1,Random_Over_Sampling,Random_Over_Sampling,0.005054426377702779,3.1231610919225363,0.004623037246731126,0.009246074493462252,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,Recall,Random_Over_Sampling,Random_Over_Sampling,-0.005854167152258199,-2.313238945444397,0.029593965248958923,0.08878189574687677,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,Recall,Random_Over_Sampling,Random_Over_Sampling,-0.0020456999898997006,-0.81455111161277,0.4233386096261151,0.4233386096261151,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,Recall,Random_Over_Sampling,Random_Over_Sampling,0.0038084671623584976,1.3563777418468084,0.187602828451721,0.375205656903442,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,-0.009354154558962092,-7.365983290342421,1.3180562340946813e-07,3.954168702284044e-07,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,-0.0006309933208668594,-0.7502362877516554,0.46040471081116424,0.46040471081116424,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,0.008723161238095231,7.325485920714491,1.4466642380826838e-07,3.954168702284044e-07,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,F1,Random_Over_Sampling,Random_Over_Sampling,-0.0016640780684707179,-0.4190589302706738,0.6788999815859933,1.0,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,F1,Random_Over_Sampling,Random_Over_Sampling,-0.0022924773868618197,-0.6014449975281034,0.5531828795861337,1.0,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,F1,Random_Over_Sampling,Random_Over_Sampling,-0.0006283993183911019,-0.2868320006126469,0.7767027053580068,1.0,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,Recall,Random_Over_Sampling,Random_Over_Sampling,0.031915841161068784,6.09184299429484,2.719674668058712e-06,5.6441176985923305e-06,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,Recall,Random_Over_Sampling,Random_Over_Sampling,0.032022189590471546,6.24277551584012,1.8813725661974435e-06,5.6441176985923305e-06,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,Recall,Random_Over_Sampling,Random_Over_Sampling,0.00010634842940276278,0.05036992813580514,0.9602444704653067,0.9602444704653067,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,-0.0016286948186505867,-0.8333373826709929,0.41287147227100596,0.9672345023578806,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,-0.0020119769983926615,-1.0103383382538718,0.3224115007859602,0.9672345023578806,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,-0.0003832821797420749,-0.551570691063182,0.5863419588098246,0.9672345023578806,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,F1,Random_Over_Sampling,Random_Over_Sampling,0.007751797416340756,2.0648721314059992,0.04990035646696393,0.09980071293392787,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,F1,Random_Over_Sampling,Random_Over_Sampling,0.006888156901319334,2.3135945430193536,0.029571289345665934,0.0887138680369978,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,F1,Random_Over_Sampling,Random_Over_Sampling,-0.0008636405150214221,-0.25028740325386184,0.8044952225580065,0.8044952225580065,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,Recall,Random_Over_Sampling,Random_Over_Sampling,0.03643129851059366,7.057811081895392,2.6911522044611435e-07,5.382304408922287e-07,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,Recall,Random_Over_Sampling,Random_Over_Sampling,0.03770061145685228,9.610173228643012,1.0624867731416485e-09,3.1874603194249455e-09,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,Recall,Random_Over_Sampling,Random_Over_Sampling,0.0012693129462586228,0.3255139591444327,0.747613079843877,0.747613079843877,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,0.011122625325115366,5.726157291447839,6.705567910702145e-06,1.341113582140429e-05,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,0.0114546979136691,6.195430531963663,2.1113640780995e-06,6.334092234298499e-06,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,PR_AUC,Random_Over_Sampling,Random_Over_Sampling,0.0003320725885537357,0.2373404570933417,0.8144070167404391,0.8144070167404391,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,F1,Random_Under_Sampling,Random_Under_Sampling,-0.006182594753503627,-3.7339621379431236,0.001029052451821726,0.0030871573554651782,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,F1,Random_Under_Sampling,Random_Under_Sampling,-0.0006276280515944466,-0.48809670548863676,0.6299110239225078,0.6299110239225078,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,F1,Random_Under_Sampling,Random_Under_Sampling,0.005554966701909181,3.381623082932488,0.002466455671383089,0.004932911342766178,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,Recall,Random_Under_Sampling,Random_Under_Sampling,-0.006171130223993653,-2.189367219357858,0.03853025041564533,0.11559075124693599,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,Recall,Random_Under_Sampling,Random_Under_Sampling,-0.0022571537343930846,-0.9981745356815832,0.3281530000710248,0.35355375812851336,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,Recall,Random_Under_Sampling,Random_Under_Sampling,0.003913976489600568,1.3917055019426787,0.17677687906425668,0.35355375812851336,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Logistic Regression,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,-0.009451422567471158,-7.574625932060624,8.186447150248697e-08,1.7112955298368174e-07,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Logistic Regression,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,-0.0005477795377037032,-0.5641186056109098,0.577907644925962,0.577907644925962,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Logistic Regression,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,0.008903643029767453,7.734587341710637,5.7043184327893914e-08,1.7112955298368174e-07,True
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,F1,Random_Under_Sampling,Random_Under_Sampling,0.0037947376413751456,1.1069311743135326,0.2792954607239034,0.8378863821717102,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,F1,Random_Under_Sampling,Random_Under_Sampling,0.0028511912637428473,0.7998772741734607,0.43162829052738144,0.8632565810547629,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,F1,Random_Under_Sampling,Random_Under_Sampling,-0.0009435463776322983,-0.36697659159127516,0.7168523698213897,0.8632565810547629,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,Recall,Random_Under_Sampling,Random_Under_Sampling,-0.015905709779424907,-3.7244185568706056,0.001053929926992878,0.002107859853985756,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,Recall,Random_Under_Sampling,Random_Under_Sampling,-0.017810129827750987,-4.024674408179597,0.0004950497161327154,0.0014851491483981463,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,Recall,Random_Under_Sampling,Random_Under_Sampling,-0.001904420048326081,-0.6624809648524648,0.5139752118790369,0.5139752118790369,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,Random Forest,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,0.0026933231983661756,1.4762678065152812,0.15287334631030866,0.3574853523771611,False
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,Random Forest,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,0.002678614233625942,1.6160152487471173,0.11916178412572037,0.3574853523771611,False
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,Random Forest,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,-1.47089647402332e-05,-0.01741453590301388,0.9862498794180534,0.9862498794180534,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,F1,Random_Under_Sampling,Random_Under_Sampling,0.016271597843036122,5.3517934578557425,1.7098969507500914e-05,5.1296908522502745e-05,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,F1,Random_Under_Sampling,Random_Under_Sampling,0.017110515150922375,5.060837290901277,3.563227439882511e-05,7.126454879765021e-05,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,F1,Random_Under_Sampling,Random_Under_Sampling,0.0008389173078862556,0.3530031232858919,0.7271677249234328,0.7271677249234328,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,Recall,Random_Under_Sampling,Random_Under_Sampling,0.017421439060205594,4.814844151741344,6.650050597699788e-05,0.00019950151793099365,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,Recall,Random_Under_Sampling,Random_Under_Sampling,0.016681133409474098,3.618093462918412,0.001374305146279351,0.002748610292558702,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,Recall,Random_Under_Sampling,Random_Under_Sampling,-0.0007403056507314965,-0.22972263542390695,0.8202539110531544,0.8202539110531544,False
+Dataset Comparison,Across Dataset Variants,Original,Fused,XGBoost,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,0.014655306996427591,8.456119709030348,1.1664760943728424e-08,2.3329521887456848e-08,True
+Dataset Comparison,Across Dataset Variants,Original,Fused_No_Eligibility,XGBoost,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,0.014668853221985013,10.026007259826029,4.672276372009283e-10,1.4016829116027849e-09,True
+Dataset Comparison,Across Dataset Variants,Fused,Fused_No_Eligibility,XGBoost,PR_AUC,Random_Under_Sampling,Random_Under_Sampling,1.3546225557421465e-05,0.009453606134236117,0.9925353709107648,0.9925353709107648,False

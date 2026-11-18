@@ -1,0 +1,4 @@
+Dataset,Best_CV_PR_AUC,Best_Parameters
+Original,0.6260650700899341,"{'classifier__C': np.float64(0.0745934328572655), 'classifier__class_weight': None, 'classifier__solver': 'lbfgs'}"
+Fused,0.6360134256645034,"{'classifier__C': np.float64(0.0745934328572655), 'classifier__class_weight': None, 'classifier__solver': 'lbfgs'}"
+Fused_No_Eligibility,0.6267513430917618,"{'classifier__C': np.float64(0.0745934328572655), 'classifier__class_weight': None, 'classifier__solver': 'lbfgs'}"
