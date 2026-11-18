@@ -39,19 +39,30 @@ The project follows these stages:
 ```text
 loan-default-prediction/
 │
-├── datasets/
-│   ├── raw/                 # Original datasets
-│   └── processed/           # Cleaned and prepared datasets
+├── Loan_Default_Research/
+│   ├── datasets/
+│   │   ├── processed/              # Cleaned and prepared datasets
+│   │   └── raw/                    # Original datasets
+│   │
+│   ├── notebooks/                  # Jupyter notebooks for each project stage
+│   │
+│   ├── results/                    # Experimental results and statistical outputs
+│   │
+│   ├── README.md                   # Research project documentation
+│   │
+│   └── requirements.txt            # Python dependencies
 │
-├── notebooks/               # Jupyter notebooks for each project stage
+├── Notebook_01_Output/             # Outputs from Notebook 01
 │
-├── results/                 # Experimental results and statistical outputs
+├── Notebook_02_Output/             # Outputs from Notebook 02
 │
-├── figures/                 # Project visualizations and paper figures
+├── Notebook_03_Output/             # Outputs from Notebook 03
 │
-├── README.md                # Project overview and documentation
-├── requirements.txt         # Python dependencies
-└── .gitignore               # Files excluded from Git
+├── Notebook_04_Output/             # Outputs from Notebook 04
+│
+├── .gitignore                      # Files excluded from Git
+│
+└── README.md                       # Main repository documentation
 ```
 
 ## 5. Models and Techniques
